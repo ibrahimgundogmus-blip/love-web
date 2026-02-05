@@ -1,0 +1,107 @@
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Marck+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Mesajınız var..</title>
+</head>
+
+<body>
+
+    <div id="first-page">
+        
+        <h1 class="yanan-baslik">Bir Yeni Mesaj<br>
+            <span
+                style="font-size:30px; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
+                (Kalbe tıklar mısın?..)
+            </span>
+        </h1>
+
+
+        <div class="contenedor">
+            <div class="envoltura-sobre">
+                <h5 style="position: fixed; top: 150px;left: 150px;color: #e0386b ;opacity: 0.0;">13444104494</h5>
+                <div class="sobre">
+                    <div class="carta">
+                        <div class="contenido">
+                            <strong>Şeyy</strong>
+                            <p>
+                                "Bugün seninle tanışmamızın 16. günü ve koca bir yıl daha bitiyor... Normalde kış
+                                aylarını, o soğuk ve kasvetli gri havayı hiç sevmezdim; içimi hep bir huzursuzluk
+                                kaplardı. Ama bu yıl bambaşka oldu, çünkü hayatıma sen geldin. Sayende o gri havalar
+                                bile gözüme güzel görünmeye başladı. Bana sadece adınla değil, varlığınla 'hayat'
+                                verdin. Geçen yıl bugün, bir sene sonra böyle hissedeceğim aklımın ucundan bile
+                                geçmezdi. Hayatıma kattığın tüm renkler için teşekkür ederim.<strong> Bir ömür boyu, her
+                                    mevsim yanımda olmaya var mısın?</strong>"
+                            </p>
+                            <div class="evet-hayir-anim-wrap">
+                                <div class="evet-hayir-container" id="butonlar">
+                                    <a href="#" class="evet-buton">Evet 💖</a>
+                                    <button type="button" class="evet-buton" id="hayir-btn">HAYIR</button>
+                                </div>
+                                <div id="hayir-error" class="hayir-error">ERROR (Hayır cevabı bulunamadı!)</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="corazon"></div>
+                <div class="solapa-derecha"></div>
+                <div class="solapa-izquierda"></div>
+            </div>
+        </div>
+        <br><br>
+        <div class="countdown-container">
+            <div class="time-box">
+                <span id="days">00</span>
+                <p>Gün</p>
+            </div>
+            <div class="time-box">
+                <span id="hours">00</span>
+                <p>Saat</p>
+            </div>
+            <div class="time-box">
+                <span id="minutes">00</span>
+                <p>Dakika</p>
+            </div>
+            <div class="time-box">
+                <span id="seconds">00</span>
+                <p>Saniye</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="second-page" style="display: none;">
+        <div style="position: fixed;
+        position: fixed;
+        top: 7vh;
+        left: 0;
+        width: 100vw;
+        text-align: center;
+        font-family: 'Marck Script', 'Comic Sans MS', cursive, sans-serif;
+        font-size: 2.2rem;
+        color: #90153a;
+        font-weight: bold;
+        pointer-events: none;
+        z-index: 1;
+        user-select: none;">
+            <h1>Seni Seviyorum</h1>
+        </div>
+        <canvas id="alx"></canvas>
+    </div>
+
+
+    <audio id="arkaPlanMuzik" loop>
+        <source src="Mustafa-Ceceli-Masallah.mp3" type="audio/mpeg">
+    </audio>
+
+
+    <script src="script copy.js"></script>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
